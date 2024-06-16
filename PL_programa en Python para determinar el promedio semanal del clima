@@ -1,0 +1,19 @@
+
+#Desarrollar habilidades prácticas en la Programación Tradicional y la Programación Orientada a Objetos
+# (POO) mediante la implementación de un programa en Python para determinar el promedio semanal del clima.
+
+suma_temperaturas = 0
+num_dias = 7
+
+# Ingreso de temperaturas diarias
+for i in range(num_dias):
+    temp = float(input(f"Ingrese la temperatura del día {i+1}: "))
+    suma_temperaturas += temp
+
+# Cálculo del promedio semanal
+promedio = suma_temperaturas / num_dias
+
+# Impresión del promedio semanal de la temperatura
+print(f"El promedio semanal de la temperatura es: {promedio:.2f}°C")
+
+
